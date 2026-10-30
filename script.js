@@ -211,7 +211,7 @@ function checkWinner() {
 
 
             statusText.textContent =
-                "🏆 Rhythem is winner";
+                "🏆 Player 1 is winner";
 
         }
 
@@ -227,7 +227,7 @@ function checkWinner() {
 
 
             statusText.textContent =
-                "🏆 Vansh is Winner!";
+                "🏆 Player 2 is Winner!";
 
         }
 
