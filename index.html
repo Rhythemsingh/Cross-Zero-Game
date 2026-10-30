@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic Tac Toe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game-container">
+
+        <!-- Game Heading -->
+        <div class="game-header">
+
+            <p class="game-label">CLASSIC GAME</p>
+
+            <h1>Tic Tac Toe</h1>
+
+            <p class="subtitle">
+                Player 1 vs Player 2
+            </p>
+
+        </div>
+
+
+        <!-- Score Board -->
+        <div class="score-board">
+
+            <div class="player-card player-one">
+
+                <div class="player-symbol">X</div>
+
+                <div class="player-info">
+                    <span>PLAYER 1</span>
+                    <strong id="player1-score">0</strong>
+                </div>
+
+            </div>
+
+
+            <div class="vs">
+                VS
+            </div>
+
+
+            <div class="player-card player-two">
+
+                <div class="player-symbol">O</div>
+
+                <div class="player-info">
+                    <span>PLAYER 2</span>
+                    <strong id="player2-score">0</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Game Status -->
+        <div class="status-box">
+
+            <span class="status-dot"></span>
+
+            <p id="status">
+                Player 1's Turn
+            </p>
+
+        </div>
+
+
+        <!-- Game Board -->
+        <div class="game-board">
+
+            <button class="cell" data-index="0"></button>
+            <button class="cell" data-index="1"></button>
+            <button class="cell" data-index="2"></button>
+
+            <button class="cell" data-index="3"></button>
+            <button class="cell" data-index="4"></button>
+            <button class="cell" data-index="5"></button>
+
+            <button class="cell" data-index="6"></button>
+            <button class="cell" data-index="7"></button>
+            <button class="cell" data-index="8"></button>
+
+        </div>
+
+
+        <!-- Restart Button -->
+        <button id="restart-button">
+            <span>↻</span>
+            New Game
+        </button>
+
+
+        <p class="footer-text">
+            First to get 3 in a row wins!
+        </p>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
